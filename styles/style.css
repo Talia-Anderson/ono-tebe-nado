@@ -72,6 +72,10 @@ button {
   height: 109px;
 }
 
+.header__address {
+  margin-left: auto;
+}
+
 .address {
   text-align: left;
   width: 240px;
@@ -79,10 +83,6 @@ button {
   font-style: normal;
   font-weight: 400;
   line-height: 24.3px;
-}
-
-.header__address {
-  align-content: end;
 }
 
 .cover {
