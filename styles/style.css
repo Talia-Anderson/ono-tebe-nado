@@ -48,11 +48,13 @@ button {
 
 .header__links-list {
   display: flex;
+  gap: 12px;
 }
 
 .header__links-list-item {
   margin-left: 13px;
-  padding-right: 12px ;
+  /* padding-right: 12px; */
+  
 }
 
 .header__links-list-item-no-bullit {
@@ -106,7 +108,6 @@ button {
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 167px;
-
 }
 
 .cover__description {
@@ -134,7 +135,7 @@ button {
   display: grid;
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 180px; 
+  margin-top: 180px;
 }
 
 .lots__heading {
