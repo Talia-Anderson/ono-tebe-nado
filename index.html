@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
     <header class = "header">
       <nav class = "header__menu">
         <ul class = "header__links-list">
-        <li class = "header__links-list-item header__links-list-item-no-bullit"><a href = "#cover">главная</a></li>
+        <li class = "header__links-list-item header__links-list-item-no-bullit"><a class = "header__link-active" href = "#cover">главная</a></li>
         <li class = "header__links-list-item"><a href = "#lots">посмотреть лоты</a></li>
         <li class = "header__links-list-item"><a href = "#about">об аукционе</a></li>
       </ul> 
       </nav>
       <section class = "header__logo">
-        <img class = "header__logo-image" src = "images/logo-black.svg">
+        <img class = "header__logo-image" alt = "оно тебе надо" src = "images/logo-black.svg">
       </section>
       <section class = "address">
         <a href="tel:+99995555555">+9(999)555-55-55</a>
@@ -30,10 +30,7 @@
     <main>
       <section class = "cover" id = "cover">
       <div class = "overlay">
-          <h1 class = "cover__title">оно тебе надо</h1>
-        
-
-
+          <h1 class = "cover__title">он<span>о</span> теб<span>е</span> над<span>о</span></h1>
         <div class = "cover__description">
           <p class = "cover__description-text">Аукцион вещей, в которые никто не верил</p>
           <button type = "button">сделать ставку</button>
@@ -90,7 +87,7 @@
       <section class = "about" id = "about">
         <div class = "about__logo">
           <div class = "about__logo-circle">
-            <img class = "about__logo-image" src = "images/logo-white.svg">
+            <img class = "about__logo-image" alt = "оно тебе надо" src = "images/logo-white.svg">
           </div>
         </div>
         <div>
@@ -123,9 +120,9 @@
         </ul>
       </nav>
       <div class = "footer__social-list">
-        <a class = "footer__social-list-item" href = "https://www.youtube.com/"><img class = "footer__social-icon" src = "images/yt.svg"></a>
-        <a class = "footer__social-list-item" href = "https://vk.com/"><img class = "footer__social-icon" src = "images/vk.svg"></a>
-        <a class = "footer__social-list-item" href = "https://ru.pinterest.com/"><img class = "footer__social-icon" src = "images/pinterest.svg"></a>
+        <a class = "footer__social-list-item" href = "https://www.youtube.com/"><img alt = "youtube.com" class = "footer__social-icon" src = "images/yt.svg"></a>
+        <a class = "footer__social-list-item" href = "https://vk.com/"><img alt = "vk.com" class = "footer__social-icon" src = "images/vk.svg"></a>
+        <a class = "footer__social-list-item" href = "https://ru.pinterest.com/"><img alt = "pinterest.com" class = "footer__social-icon" src = "images/pinterest.svg"></a>
       </div>
     </footer>
   </body>
