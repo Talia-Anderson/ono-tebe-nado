@@ -110,7 +110,6 @@ button {
   text-transform: uppercase;
   margin-left: 50px;
   margin-right: 50px;
-  /* margin-top: 167px; */
 }
 
 .cover__description {
@@ -308,7 +307,7 @@ button {
   font-weight: 400;
   line-height: normal;
   margin-bottom: 25px;
-  text-align: justify;
+  text-align: left;
 }
 
 .about__text-no-padding {
