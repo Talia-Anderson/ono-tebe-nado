@@ -113,27 +113,6 @@ button {
   /* margin-top: 165px; */
 }
 
-.cover__description {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  max-height: 52px;
-  min-height: 52px;
-  margin-right: 50px;
-  margin-left: 422px;
-  margin-bottom: 50px;
-  align-items: center;
-}
-
-.cover__description-text {
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-  text-transform: uppercase;
-  word-spacing: 15px;
-}
-
 .aligned-text {
   display: block;
   text-align: left;
@@ -154,6 +133,27 @@ button {
 
 .letter-spacing-extended {
   padding-left: 50px;
+}
+
+.cover__description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-height: 52px;
+  min-height: 52px;
+  margin-right: 50px;
+  margin-left: 422px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  word-spacing: 15px;
 }
 
 .lots {
