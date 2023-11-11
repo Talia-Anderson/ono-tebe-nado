@@ -120,13 +120,13 @@ button {
 
 .aligned-text {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 9px;
   text-align: left;
 }
 
 .aligned-text-center {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   text-align: center;
 }
 
@@ -137,6 +137,10 @@ button {
 
 .letter-spacing-extended {
   padding-left: 30px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
 }
 
 .cover__description {
@@ -198,7 +202,6 @@ button {
   min-width: 430px;
   max-width: 430px;
   min-height: 450px;
-  
 }
 
 .card_common_style_settings {
@@ -357,10 +360,6 @@ button {
   display: flex;
   justify-content: space-between;
   width: 240px;
-}
-
-.footer__social-list-item {
-  /* height: 48px; */
 }
 
 .footer__social-icon {
