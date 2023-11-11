@@ -107,8 +107,8 @@ button {
 .cover__title {
   padding-top: 165px;
   padding-right: 50px;
-  padding-left: 50px;
   padding-bottom: 135px;
+  padding-left: 50px;
   font-weight: 700;
   font-size: 100px;
   font-style: normal;
@@ -128,6 +128,7 @@ button {
   display: block;
   margin-bottom: 5px;
   text-align: center;
+  margin-right: 35px;
 }
 
 .aligned-text-right {
@@ -159,7 +160,7 @@ button {
   font-style: normal;
   line-height: 28px;
   text-transform: uppercase;
-  word-spacing: 15px;
+  word-spacing: 17px;
 }
 
 /*лоты*/
