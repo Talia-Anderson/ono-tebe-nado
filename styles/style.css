@@ -24,6 +24,8 @@ button {
   background-color: transparent;
 }
 
+/*шапка*/
+
 .header {
   display: grid;
   grid-template-columns: auto 1fr 1fr;
@@ -84,10 +86,12 @@ button {
   text-align: left;
 }
 
+/*входная секция*/
+
 .cover {
   z-index: -1;
   width: 100%;
-  height: 767px;
+  height: 765px;
   margin-top: 92px;
   margin-right: 0;
   margin-left: 0;
@@ -155,6 +159,8 @@ button {
   text-transform: uppercase;
   word-spacing: 15px;
 }
+
+/*лоты*/
 
 .lots {
   display: grid;
@@ -280,6 +286,8 @@ button {
   font-size: 20px;
 }
 
+/*об аукционе*/
+
 .about {
   display: grid;
   grid-template-columns: 430px auto;
@@ -334,6 +342,8 @@ button {
 .about__text-no-padding {
   margin-bottom: 0;
 }
+
+/*подвал*/
 
 .footer {
   display: grid;
