@@ -28,7 +28,7 @@ button {
 
 .header {
   display: grid;
-  grid-template-columns: auto 1fr 1fr;
+  grid-template-columns: auto 1fr 240px;
   grid-auto-flow: column;
   place-items: center center;
   column-gap: 100px;
@@ -67,6 +67,7 @@ button {
 
 .header__logo {
   align-content: center;
+  padding-right: 150px;
 }
 
 .header__logo-image {
@@ -78,7 +79,8 @@ button {
 }
 
 .address {
-  width: 240px;
+  display: flex;
+  flex-direction: column;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
